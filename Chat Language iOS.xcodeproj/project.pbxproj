@@ -98,10 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				811D3DD621DD286E00434509 /* AppDelegate.swift */,
-				811D3DD821DD286E00434509 /* ViewController.swift */,
-				811D3DDA21DD286E00434509 /* Main.storyboard */,
+				818A1ABC21DD3E21003F4C87 /* Models */,
+				818A1ABB21DD3E15003F4C87 /* Controllers */,
+				818A1ABA21DD3DF8003F4C87 /* View */,
 				811D3DDD21DD287A00434509 /* Assets.xcassets */,
-				811D3DDF21DD287A00434509 /* LaunchScreen.storyboard */,
 				811D3DE221DD287A00434509 /* Info.plist */,
 			);
 			path = "Chat Language iOS";
@@ -123,6 +123,30 @@
 				811D3DF821DD287A00434509 /* Info.plist */,
 			);
 			path = "Chat Language iOSUITests";
+			sourceTree = "<group>";
+		};
+		818A1ABA21DD3DF8003F4C87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				811D3DDF21DD287A00434509 /* LaunchScreen.storyboard */,
+				811D3DDA21DD286E00434509 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		818A1ABB21DD3E15003F4C87 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				811D3DD821DD286E00434509 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		818A1ABC21DD3E21003F4C87 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
