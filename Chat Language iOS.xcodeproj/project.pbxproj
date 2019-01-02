@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		811D3DD721DD286E00434509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D3DD621DD286E00434509 /* AppDelegate.swift */; };
-		811D3DD921DD286E00434509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D3DD821DD286E00434509 /* ViewController.swift */; };
+		811D3DD921DD286E00434509 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D3DD821DD286E00434509 /* LoginViewController.swift */; };
 		811D3DDC21DD286E00434509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811D3DDA21DD286E00434509 /* Main.storyboard */; };
 		811D3DDE21DD287A00434509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811D3DDD21DD287A00434509 /* Assets.xcassets */; };
 		811D3DE121DD287A00434509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811D3DDF21DD287A00434509 /* LaunchScreen.storyboard */; };
 		811D3DEC21DD287A00434509 /* Chat_Language_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D3DEB21DD287A00434509 /* Chat_Language_iOSTests.swift */; };
 		811D3DF721DD287A00434509 /* Chat_Language_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D3DF621DD287A00434509 /* Chat_Language_iOSUITests.swift */; };
+		818A1ABE21DD423F003F4C87 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818A1ABD21DD423F003F4C87 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		811D3DD321DD286E00434509 /* Chat Language iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat Language iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		811D3DD621DD286E00434509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		811D3DD821DD286E00434509 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		811D3DD821DD286E00434509 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		811D3DDB21DD286E00434509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		811D3DDD21DD287A00434509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		811D3DE021DD287A00434509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		811D3DF221DD287A00434509 /* Chat Language iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chat Language iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		811D3DF621DD287A00434509 /* Chat_Language_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_Language_iOSUITests.swift; sourceTree = "<group>"; };
 		811D3DF821DD287A00434509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818A1ABD21DD423F003F4C87 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +139,8 @@
 		818A1ABB21DD3E15003F4C87 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				811D3DD821DD286E00434509 /* ViewController.swift */,
+				811D3DD821DD286E00434509 /* LoginViewController.swift */,
+				818A1ABD21DD423F003F4C87 /* RegisterViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -280,7 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				811D3DD921DD286E00434509 /* ViewController.swift in Sources */,
+				818A1ABE21DD423F003F4C87 /* RegisterViewController.swift in Sources */,
+				811D3DD921DD286E00434509 /* LoginViewController.swift in Sources */,
 				811D3DD721DD286E00434509 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
